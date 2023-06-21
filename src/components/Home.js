@@ -16,6 +16,7 @@ class Home extends React.Component {
                 const shelfBooks = books.filter(b => (b.shelf === shelf.type))
                 return (
                     <BookShelf
+                        books = {books}
                         title={shelf.title}
                         data={shelfBooks}
                         updateBookShelf={updateBookShelf}

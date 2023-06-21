@@ -12,7 +12,7 @@ class BookShelf extends React.Component {
   }
 
     render() {
-      const {title, data, updateBookShelf} = this.props
+      const {books, title, data, updateBookShelf} = this.props
         return (
             <div className="bookshelf">
               <h2 className="bookshelf-title">{title}</h2>
@@ -21,6 +21,7 @@ class BookShelf extends React.Component {
                 {data.length !== 0 ? 
                   data.map(b=>(
                     <Book 
+                      books= {books}
                       book = {b}
                       key={b.id}
                       updateBookShelf = {updateBookShelf} 
