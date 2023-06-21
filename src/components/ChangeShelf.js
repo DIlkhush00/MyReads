@@ -16,7 +16,6 @@ class ChangeShelf extends React.Component {
             }
 
         }
-
         return (
 
             <div className="book-shelf-changer">
