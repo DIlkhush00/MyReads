@@ -18,8 +18,6 @@ class BooksApp extends React.Component {
   updateBookShelf = (bookToBeUpdated, updatedShelf) => {
     BooksAPI.update(bookToBeUpdated, updatedShelf)
       .then((data) => {
-        console.log("here's your updated data", data)
-
         bookToBeUpdated.shelf = updatedShelf
 
         this.setState(prevState => ({

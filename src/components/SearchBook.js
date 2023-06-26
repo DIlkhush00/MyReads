@@ -17,7 +17,6 @@ class SeacrhBook extends React.Component {
     if (serachQuery) {
       BooksAPI.search(serachQuery)
         .then(data => {
-          console.log("query result", data)
           this.setState({
             resultBooks: data,
           })

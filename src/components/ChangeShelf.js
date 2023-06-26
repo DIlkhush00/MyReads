@@ -8,7 +8,6 @@ class ChangeShelf extends React.Component {
     render() {
         const {book, books, updateBookShelf} = this.props
         let currentShelf = 'none'
-        console.log(books)
         for (let b of books) {
             if (b.id === book.id) {
                 currentShelf = b.shelf
