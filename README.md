@@ -27,7 +27,7 @@ This application is mainly built with React.js
 ## Installation
 1. Clone the repo
 ```sh
-git clone https://github.com/DIlkhush00/Evaluate-An-Article-With-NLP/
+git clone https://github.com/DIlkhush00/MyReads
 ``` 
 2. Run the following Command in terminal to install necessary dependencies
 ```sh
@@ -38,4 +38,4 @@ npm install
 ```sh
 npm run start
 ```
-6. Your application should be running on  `http://localhost:3000/`
+4. Your application should be running on  `http://localhost:3000/`
