@@ -37,7 +37,7 @@ class BooksApp extends React.Component {
     return (
       <div className="app">
         <Routes>
-          <Route exact path='/'
+          <Route exact path='/MyReads'
             element={<div className="list-books">
               <div className="list-books-title">
                 <h1>Your Personal Bookshelf, Organized Your Way!</h1>
