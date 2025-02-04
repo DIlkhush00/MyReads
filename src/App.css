@@ -7,21 +7,21 @@ body {
 }
 
 body, .app {
-  background: #252525;
+  background: #FEF9E1;
 }
 
 /* main page */
 
 .list-books-title {
   padding: 10px 0;
-  background: #111111;
+  background: #FEF9E1;
   text-align: center;
 }
 
 .list-books-title h1 {
   font-weight: 400;
   margin: 0;
-  color: white;
+  color: #252321;
 }
 
 .list-books-content {
@@ -30,17 +30,17 @@ body, .app {
 }
 
 .bookshelf {
-  padding: 0 10px 20px;
+  padding: 16px 60px;
 }
 
 @media (min-width: 600px) {
   .bookshelf {
-    padding: 0 20px 40px;
+    padding: 16px 60px;
   }
 }
 
 .bookshelf-title {
-  color: white;
+  color: #252321;
   border-bottom: 1px solid grey;
 }
 
@@ -60,7 +60,7 @@ body, .app {
   height: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background: #4d196f;
+  background: #A31D1D;
   background-image: url('./icons/add.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -68,10 +68,11 @@ body, .app {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   font-size: 0;
   outline: 0;
+  transition: all 0.3s ease;
 }
 
 .open-search button:hover {
-  background-color: #4d194d;
+  background-color: #6D2323;
 }
 
 
@@ -96,8 +97,8 @@ body, .app {
   width: 100%;
   padding: 15px 10px;
   font-size: 1.25em;
-  color: white;
-  background: #111111;
+  color: #252321;
+  background: #E5D0AC;
   border: none;
   outline: none;
 }
@@ -140,7 +141,7 @@ button:active {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  color: white;
+  color: #A31D1D;
 }
 
 .books-grid li {
@@ -179,16 +180,17 @@ button:active {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #4d196f;
+  background: #A31D1D;
   background-image: url('./icons/arrow-drop-down.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s ease;
 }
 
 .book-shelf-changer:hover{
-  background-color: #4d194d;
+  background-color: #6D2323;
 }
 
 .book-shelf-changer select {
